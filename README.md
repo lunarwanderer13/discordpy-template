@@ -32,5 +32,8 @@ PREFIX - the symbol used to trigger the bot's commands, use the command name aft
 
 Run the bot in the activated virtual environment.
 ```
-$ python main.py
+$ ./start.sh
 ```
+Note: change the name of `discordpy-template.sh` to the name of your discord bot.  
+This will be used to locate and terminate the process when `stop.sh` is ran, so make sure to avoid generic or conflicting names.  
+If you have zero ideas for a name the best choice is to smash your head on your keyboard, that way you won't name two files the same name.
